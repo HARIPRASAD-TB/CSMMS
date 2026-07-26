@@ -108,3 +108,20 @@ See [MONGODB_SETUP.md](./MONGODB_SETUP.md) for MongoDB Compass connection instru
 ## License
 
 Proprietary — BuildConnect Technologies Pvt. Ltd.
+
+## GitHub Pages (Static Demo)
+
+Live demo: [https://HARIPRASAD-TB.github.io/CSMMS](https://HARIPRASAD-TB.github.io/CSMMS)
+
+This project uses **Next.js**, not Create React App. GitHub Pages hosts a **static export** of the frontend only. API routes, MongoDB, authentication, and server middleware do not run on GitHub Pages. For the full application, run locally or deploy to a Node.js host (e.g. Vercel).
+
+### Deploy to GitHub Pages
+
+```bash
+npm install
+npm run deploy
+```
+
+This runs `build:gh` (static export with `/CSMMS` base path) and publishes the `out/` folder to the `gh-pages` branch.
+
+In your GitHub repository settings, set **Pages → Build and deployment → Branch** to `gh-pages` / `/ (root)`.
