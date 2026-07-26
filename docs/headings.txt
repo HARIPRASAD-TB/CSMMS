@@ -1,0 +1,52 @@
+﻿6	ACKNOWLEDGEMENT
+7	SYNOPSIS
+1	CHAPTER 1
+1	1.1 System Overview
+2	1.2 Organization Profile
+5	CHAPTER 2
+5	2.1 Problem Statement
+6	2.2 Existing System
+7	2.2.1 Drawbacks
+8	2.3 Proposed System
+9	2.3.1 Advantage
+10	2.4 Feasibility Analysis
+10	2.4.1 Technical Feasibility
+11	2.4.2 Economic Feasibility
+12	2.4.3 Operational Feasibility
+13	2.4.4 Cost Estimation and Scheduling
+15	CHAPTER 3
+15	3.1 Hardware Requirement
+15	3.2 Software Requirement
+16	3.3 Programming Environment
+17	3.3.1 About Next.js
+18	3.3.2 About MongoDB
+19	CHAPTER 4
+19	4.1 Element of Design
+19	4.1.1 Process Design
+20	4.1.2 Concept Design
+21	4.1.3 Logical Design
+21	4.1.4 Physical Design
+22	4.1.5 Input Design
+24	4.1.6 Output Design
+25	4.1.7 Database Design
+26	4.2 Table Structure
+29	CHAPTER 5
+29	5.1 System Testing
+29	5.1.1 Unit Testing
+30	5.1.2 Integration Testing
+30	5.1.3 User Acceptance Testing
+31	5.1.4 Output Testing
+31	5.1.5 Validation Testing
+32	5.2 System Security
+33	5.3 System Enhancement
+35	CHAPTER 6
+35	6.1 Conclusion
+36	6.2 Further Enhancement
+37	CHAPTER 7
+37	BIBLIOGRAPHY & REFERENCES
+38	APPENDIX
+38	APPENDIX A — SAMPLE SOURCE CODE
+38	A.1 User Model (Mongoose Schema)
+38	A.2 Login API Route
+39	A.3 Middleware Route Protection
+39	APPENDIX B — SCREENSHOTS OF APPLICATION OUTPUT
