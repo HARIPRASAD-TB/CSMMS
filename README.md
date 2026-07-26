@@ -1,5 +1,8 @@
 # BuildConnect
 
+> **Open the live app here:** [https://HARIPRASAD-TB.github.io/CSMMS/](https://HARIPRASAD-TB.github.io/CSMMS/)  
+> Do not use the GitHub repo page — that shows this README document. Use the link above for the app home page.
+
 **BuildConnect** is a full-stack construction marketplace that connects customers with skilled workers, verified contractors, and material suppliers — on a single platform with transparent pricing, ratings, and secure bookings.
 
 ## Features
