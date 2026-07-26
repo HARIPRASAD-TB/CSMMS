@@ -72,6 +72,7 @@ function ServicesPage() {
   const searchParams = useSearchParams();
   const tab: ServiceTab =
     searchParams.get("tab") === "contractors" ? "contractors" : "workers";
+  const searchQuery = searchParams.get("q") ?? "";
 
   const { user } = useAuth();
   const [workers, setWorkers] = useState<Worker[]>([]);
@@ -94,6 +95,7 @@ function ServicesPage() {
 
   const loadWorkers = useCallback(() => {
     const params = new URLSearchParams();
+    if (searchQuery) params.set("q", searchQuery);
     Object.entries(workerFilters).forEach(([k, v]) => v && params.set(k, v));
     fetch(`/api/workers?${params}`)
       .then((r) => r.json())
@@ -107,7 +109,7 @@ function ServicesPage() {
           )
         )
       );
-  }, [workerFilters]);
+  }, [workerFilters, searchQuery]);
 
   const loadContractors = useCallback(() => {
     const params = new URLSearchParams();

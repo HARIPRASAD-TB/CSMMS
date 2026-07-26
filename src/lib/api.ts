@@ -1,9 +1,11 @@
+import { apiUrl } from "./paths";
+
 export async function api<T>(
   url: string,
   options?: RequestInit
 ): Promise<{ data?: T; error?: string }> {
   try {
-    const res = await fetch(url, {
+    const res = await fetch(apiUrl(url), {
       ...options,
       headers: {
         "Content-Type": "application/json",

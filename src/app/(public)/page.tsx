@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Search, Users, Building2, Package, TrendingUp } from "lucide-react";
 import { Button } from "@/components/ui/Button";
+import { withBasePath } from "@/lib/paths";
 
 const stats = [
   { label: "10K+ Happy Customers", value: "10K+" },
@@ -45,7 +46,7 @@ export default function HomePage() {
             materials — all with transparent pricing and verified reviews.
           </p>
           <form
-            action="/workers"
+            action={withBasePath("/workers")}
             className="mx-auto flex max-w-2xl gap-2 rounded-xl border border-zinc-700 bg-surface p-2"
           >
             <Search className="ml-3 h-5 w-5 shrink-0 self-center text-zinc-500" />

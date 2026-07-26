@@ -5,6 +5,10 @@ const repo = "CSMMS";
 const basePath = isGithubPages ? `/${repo}` : "";
 
 const nextConfig: NextConfig = {
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+    NEXT_PUBLIC_DEMO_MODE: isGithubPages ? "true" : "",
+  },
   ...(isGithubPages
     ? {
         output: "export" as const,
