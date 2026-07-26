@@ -124,4 +124,8 @@ npm run deploy
 
 This runs `build:gh` (static export with `/CSMMS` base path) and publishes the `out/` folder to the `gh-pages` branch.
 
-In your GitHub repository settings, set **Pages → Build and deployment → Branch** to `gh-pages` / `/ (root)`.
+**Important:** If you see the README instead of the app, GitHub Pages is pointing at the wrong source.
+
+1. Open [Pages settings](https://github.com/HARIPRASAD-TB/CSMMS/settings/pages)
+2. Under **Build and deployment → Source**, choose **GitHub Actions** (recommended), **or** choose **Deploy from a branch** → Branch: `gh-pages` → Folder: `/ (root)`
+3. Save and wait 1–2 minutes, then open [https://HARIPRASAD-TB.github.io/CSMMS/](https://HARIPRASAD-TB.github.io/CSMMS/)
